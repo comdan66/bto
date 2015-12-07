@@ -1,0 +1,136 @@
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+
+@import "_oa";
+
+.t {
+  .c {
+    position: relative;
+    display: inline-block;
+    width: 1000px;
+    height: 215px;
+    margin: 0 auto;
+
+    .f {
+      position: absolute;
+      right: 0px;
+      top: 0;
+      display: inline-block;
+      width: 87px;
+      height: 23px;
+      background: url("../img/btnf.png");
+
+      &:hover {
+        background: url("../img/btnf_o.png");
+      }
+    }
+    .l {
+      display: block;
+      margin-top: 50px;
+    }
+    .ms {
+      margin: 0 auto;
+      display: inline-block;
+      margin-top: 40px;
+      @include clearfix();
+
+      a {
+        float: left;
+        @include a(2px, false, rgba(104, 177, 209, 1), rgba(104, 177, 209, 1));
+        color: rgba(50, 50, 50, 0.8);
+        letter-spacing: 2px;
+        font-size: 20px;
+
+        &:hover {
+          border-color: rgba(171, 204, 10, 1);
+        }
+      }
+      span {
+        float: left;
+        margin: 0 10px;
+      }
+    }
+  }
+}
+
+.b {
+
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+    clear: both;
+  }
+  > div {
+    display: inline-block;
+    float: left;
+    height: 100%;
+  }
+  .c {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    z-index: 99;
+    
+    img {
+      position: absolute;
+      top: 0;
+      width: 100%;
+      @include transition(all .3s);
+
+      &:nth-child(1) {
+        left: -100%;
+      }
+      &:nth-child(2) {
+        left: 0;
+      }
+      &:nth-child(3) {
+        left: 100%;
+      }
+      &:nth-child(4) {
+        left: 200%;
+      }
+      &:nth-child(5) {
+        left: 300%;
+      }
+    }
+  }
+  .a {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    z-index: 999;
+    top: 50%;
+    font-size: 40px;
+    color: rgba(155, 215, 251, 1);
+    cursor: pointer;
+    @include transition(all .3s);
+
+    &:hover {
+      color: rgba(44, 157, 195, 1);
+    }
+    &.l {
+      left: 0;
+      z-index: 999;
+      background-position: 0px 0px;
+      margin-left: 10px;
+    }
+    &.r {
+      right: 0;
+      z-index: 999;
+      background-position: 0px 0px;
+      margin-right: 10px;
+    }
+  }
+}
+.f {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+
+  letter-spacing: 1px;
+  color: rgba(39, 40, 34, .5);
+}

@@ -1,0 +1,108 @@
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+.cc img {
+  width: 100%;
+  *zoom: 1;
+}
+.cc img:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.cc img.q {
+  width: auto;
+  float: left;
+  margin-left: 30px;
+}
+.cc .i {
+  padding: 10px 30px;
+}
+.cc .i .us {
+  display: inline-block;
+  width: 100%;
+  margin: 15px;
+  *zoom: 1;
+}
+.cc .i .us:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.cc .i .us div:first-child, .cc .i .us div:last-child {
+  float: left;
+  position: relative;
+  display: inline-block;
+}
+.cc .i .us div:last-child {
+  float: right;
+}
+.cc .i .us div:first-child {
+  width: calc(100% - 50%);
+}
+.cc .i .us div:last-child {
+  width: 50%;
+}
+.cc .i .us .u {
+  margin: 0;
+}
+.cc .i .u {
+  margin: 15px;
+  text-align: left;
+  padding-left: 10px;
+  font-size: 18px;
+  color: rgba(49, 50, 53, 0.5);
+  border-left: 3px solid #86d200;
+}
+.cc .i .u span {
+  font-weight: bold;
+  color: rgba(49, 50, 53, 0.8);
+  margin-right: 5px;
+}

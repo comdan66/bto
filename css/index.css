@@ -1,0 +1,191 @@
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+.t .c {
+  position: relative;
+  display: inline-block;
+  width: 1000px;
+  height: 215px;
+  margin: 0 auto;
+}
+.t .c .f {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  display: inline-block;
+  width: 87px;
+  height: 23px;
+  background: url("../img/btnf.png");
+}
+.t .c .f:hover {
+  background: url("../img/btnf_o.png");
+}
+.t .c .l {
+  display: block;
+  margin-top: 50px;
+}
+.t .c .ms {
+  margin: 0 auto;
+  display: inline-block;
+  margin-top: 40px;
+  *zoom: 1;
+}
+.t .c .ms:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.t .c .ms a {
+  float: left;
+  display: inline-block;
+  color: #68b1d1;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 0 2px;
+  padding-bottom: 2px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-bottom: 2px solid transparent;
+  color: rgba(50, 50, 50, 0.8);
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+.t .c .ms a.active, .t .c .ms a:hover {
+  color: #68b1d1;
+  border-bottom: 2px solid #68b1d1;
+}
+.t .c .ms a:hover {
+  border-color: #abcc0a;
+}
+.t .c .ms span {
+  float: left;
+  margin: 0 10px;
+}
+
+.b:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.b > div {
+  display: inline-block;
+  float: left;
+  height: 100%;
+}
+.b .c {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+}
+.b .c img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.b .c img:nth-child(1) {
+  left: -100%;
+}
+.b .c img:nth-child(2) {
+  left: 0;
+}
+.b .c img:nth-child(3) {
+  left: 100%;
+}
+.b .c img:nth-child(4) {
+  left: 200%;
+}
+.b .c img:nth-child(5) {
+  left: 300%;
+}
+.b .a {
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  z-index: 999;
+  top: 50%;
+  font-size: 40px;
+  color: #9bd7fb;
+  cursor: pointer;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+.b .a:hover {
+  color: #2c9dc3;
+}
+.b .a.l {
+  left: 0;
+  z-index: 999;
+  background-position: 0px 0px;
+  margin-left: 10px;
+}
+.b .a.r {
+  right: 0;
+  z-index: 999;
+  background-position: 0px 0px;
+  margin-right: 10px;
+}
+
+.f {
+  font-size: 18px;
+  padding: 10px;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  color: rgba(39, 40, 34, 0.5);
+}

@@ -1,0 +1,294 @@
+@charset "UTF-8";
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+@font-face {
+  font-family: "Monaco";
+  src: url('/oaf2e/font/monaco/monaco.ttf?1439651096') format('truetype'), url('/oaf2e/font/monaco/monaco.otf?1439651096') format('opentype');
+}
+*, *:after, *:before {
+  vertical-align: top;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+*::-moz-selection, *:after::-moz-selection, *:before::-moz-selection {
+  color: white;
+  background-color: #96c8ff;
+}
+*::selection, *:after::selection, *:before::selection {
+  color: white;
+  background-color: #96c8ff;
+}
+
+html {
+  height: 100%;
+}
+html body {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  font-size: medium;
+  font-family: Monaco, "微軟正黑體", "Microsoft JhengHei";
+  background: white nano;
+  color: rgba(50, 50, 50, 0.8);
+  -moz-osx-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+}
+html body.body .t {
+  height: 100px;
+}
+html body.body .t .c {
+  position: relative;
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  *zoom: 1;
+}
+html body.body .t .c:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body.body .t .c .f {
+  position: absolute;
+  right: 0px;
+  top: 0;
+  display: inline-block;
+  width: 87px;
+  height: 23px;
+  background: url("../img/btnf.png");
+}
+html body.body .t .c .f:hover {
+  background: url("../img/btnf_o.png");
+}
+html body.body .t .c .l {
+  float: left;
+  display: inline-block;
+  width: 209px;
+  margin-top: 30px;
+}
+html body.body .t .c .r {
+  float: right;
+  width: calc(100% - 209px);
+  display: inline-block;
+  text-align: right;
+  margin-top: 60px;
+  *zoom: 1;
+}
+html body.body .t .c .r:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body.body .t .c .r a {
+  display: inline-block;
+  color: #68b1d1;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 0 2px;
+  padding-bottom: 2px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-bottom: 2px solid transparent;
+  color: rgba(50, 50, 50, 0.8);
+  font-size: 17px;
+}
+html body.body .t .c .r a.active, html body.body .t .c .r a:hover {
+  color: #68b1d1;
+  border-bottom: 2px solid #68b1d1;
+}
+html body.body .t .c .r a:hover {
+  border-color: #abcc0a;
+}
+html body.body .p {
+  background-color: #e6f9ff;
+  height: 25px;
+}
+html body.body .p .c {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  text-align: left;
+  color: #99a7af;
+  *zoom: 1;
+}
+html body.body .p .c:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body.body .p .c a {
+  float: left;
+  display: inline-block;
+  color: rgba(42, 90, 149, 0.7);
+  font-weight: normal;
+  text-decoration: none;
+  padding: 0 2px;
+  padding-bottom: 0;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: #99a7af;
+}
+html body.body .p .c a.active, html body.body .p .c a:hover {
+  color: rgba(12, 65, 109, 0.85);
+}
+html body.body .p .c a + a:before {
+  content: '>';
+  margin-right: 5px;
+  margin-left: 2px;
+}
+html body.body .ci {
+  margin-top: 20px;
+}
+html body.body .ci .c {
+  width: 1000px;
+  height: 100%;
+  color: #99a7af;
+  margin: 0 auto;
+  *zoom: 1;
+}
+html body.body .ci .c:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body.body .ci .c .l {
+  float: left;
+  display: inline-block;
+  width: 260px;
+  text-align: left;
+  border-top: 1px dotted #50a3ca;
+}
+html body.body .ci .c .l h3 {
+  color: #1b3c4d;
+  margin: 10px auto;
+}
+html body.body .ci .c .l a {
+  position: relative;
+  padding-left: 50px;
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  color: #467e8c;
+}
+html body.body .ci .c .l a + a {
+  margin-top: 10px;
+}
+html body.body .ci .c .l a:hover {
+  color: #7abce5;
+}
+html body.body .ci .c .l a:before {
+  content: '-';
+  color: #a1d844;
+  position: absolute;
+  left: 30px;
+  top: 0;
+  line-height: 18px;
+  font-weight: bolder;
+  font-size: 20px;
+  display: inline-block;
+}
+html body.body .ci .c .r {
+  float: right;
+  display: inline-block;
+  width: calc(100% - 50px - 260px);
+}
+html body.body .ci .c .r .ps {
+  margin-top: 10px;
+  text-align: right;
+  *zoom: 1;
+}
+html body.body .ci .c .r .ps:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+html body.body .ci .c .r .ps a {
+  display: inline-block;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #867d78;
+  border: 1px solid #726f6b;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+html body.body .ci .c .r .ps a:hover, html body.body .ci .c .r .ps a.active {
+  background-color: #4e4f51;
+  border: 1px solid #35373a;
+}
+html body.body .fl {
+  border-top: 4px solid #0099d8;
+  margin-top: 40px;
+  padding: 10px;
+}

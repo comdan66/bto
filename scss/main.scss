@@ -1,0 +1,207 @@
+/**
+ * @author      OA Wu <comdan66@gmail.com>
+ * @copyright   Copyright (c) 2015 OA Wu Design
+ */
+
+@import "_oa";
+
+@include font-face("Monaco", font-files("monaco/monaco.ttf", "monaco/monaco.otf"));
+
+* {
+  &, &:after, &:before {
+    vertical-align: top;
+    @include box-sizing(border-box);
+    @include selection(rgba(150, 200, 255, 1), rgba(255, 255, 255, 1));
+    @include font-smoothing(antialiased);
+  }
+}
+
+html {
+  height: 100%;
+
+  body {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    font-size: medium;
+    font-family: Monaco, "微軟正黑體", "Microsoft JhengHei";
+    background: $mainBackgroundColor $mainBackgroundImage;
+    color: rgba(50, 50, 50, 0.8);
+
+    @include font-smoothing(antialiased);
+
+    &.body {
+      .t {
+        height: 100px;
+
+        .c {
+          position: relative;
+          width: 1000px;
+          height: 100px;
+          margin: 0 auto;
+          @include clearfix();
+          
+          .f {
+            position: absolute;
+            right: 0px;
+            top: 0;
+            display: inline-block;
+            width: 87px;
+            height: 23px;
+            background: url("../img/btnf.png");
+
+            &:hover {
+              background: url("../img/btnf_o.png");
+            }
+          }
+          .l {
+            float: left;
+            display: inline-block;
+            width: 209px;
+            margin-top: 30px;
+          }
+          .r {
+            float: right;
+            width: calc(100% - 209px);
+            display: inline-block;
+            text-align: right;
+            margin-top: 60px;
+            @include clearfix();
+
+            a {
+              @include a(2px, false, rgba(104, 177, 209, 1), rgba(104, 177, 209, 1));
+              color: rgba(50, 50, 50, 0.8);
+              font-size: 17px;
+
+              &:hover {
+                border-color: rgba(171, 204, 10, 1);
+              }
+            }
+          }
+        }
+      }
+      .p {
+        background-color: rgba(230, 249, 255, 1);
+        height: 25px;
+
+        .c {
+          width: 1000px;
+          height: 100%;
+          margin: 0 auto;
+          text-align: left;
+          color: rgba(153, 167, 175, 1);
+          @include clearfix();
+          
+
+          a {
+            float: left;
+            @include a;
+            color: rgba(153, 167, 175, 1);
+
+            + a {
+              &:before {
+                content: '>';
+                margin-right: 5px;
+                margin-left: 2px;
+              }
+            }
+          }
+        }
+      }
+
+      .ci {
+        margin-top: 20px;
+
+        .c {
+          width: 1000px;
+          height: 100%;
+          color: rgba(153, 167, 175, 1);
+          margin: 0 auto;
+          @include clearfix();
+          
+          .l {
+            float: left;
+            display: inline-block;
+            width: 260px;
+            text-align: left;
+            border-top: 1px dotted rgba(80, 163, 202, 1);
+
+            h3 {
+              color: rgba(27, 60, 77, 1);
+              margin: 10px auto;
+            }
+
+            a {
+              position: relative;
+              padding-left: 50px;
+              display: inline-block;
+              width: 100%;
+              text-decoration: none;
+              color: rgba(70, 126, 140, 1);
+
+              + a {
+                margin-top: 10px;
+              }
+
+              &:hover {
+                color: rgba(122, 188, 229, 1);
+              }
+
+              &:before {
+                content: '-';
+                color: rgba(161, 216, 68, 1);
+                position: absolute;
+                left: 30px;
+                top: 0;
+                line-height: 18px;
+                font-weight: bolder;
+                font-size: 20px;
+                display: inline-block;
+              }
+            }
+          }
+          .r {
+            float: right;
+            display: inline-block;
+            width: calc(100% - 50px - 260px);
+
+            .ps {
+              margin-top: 10px;
+              text-align: right;
+
+              @include clearfix();
+              
+              a {
+                display: inline-block;
+                width: 25px;
+                height: 25px;
+                line-height: 25px;
+                color: #ffffff;
+                text-align: center;
+                text-decoration: none;
+
+                background-color: rgba(134, 125, 120, 1);
+                border: 1px solid rgba(114, 111, 107, 1);
+
+                &:hover, &.active {
+                  background-color: rgba(78, 79, 81, 1);
+                  border: 1px solid rgba(53, 55, 58, 1); 
+                }
+                @include border-radius(50%);
+                
+              }
+            }
+          }
+        }
+      }
+      .fl {
+        border-top: 4px solid rgba(0, 153, 216, 1);
+        margin-top: 40px;
+        padding: 10px;
+      }
+    }
+  }
+}
