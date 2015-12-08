@@ -46,3 +46,59 @@
  * @author      OA Wu <comdan66@gmail.com>
  * @copyright   Copyright (c) 2015 OA Wu Design
  */
+.r .tb {
+  border: 1px solid #bfc0c1;
+  border-left: 0;
+  border-right: 0;
+  padding: 10px;
+}
+.r .tb div {
+  *zoom: 1;
+  display: inline-block;
+  margin: 0 auto;
+}
+.r .tb div:after {
+  display: table;
+  content: "";
+  line-height: 0;
+  clear: both;
+}
+.r .tb div a {
+  float: left;
+  display: inline-block;
+  margin: 0 20px;
+  color: #50616b;
+  cursor: pointer;
+}
+.r .tb div a:hover, .r .tb div a.active {
+  color: #42ade4;
+}
+.r .tp .pp {
+  display: none;
+  text-align: left;
+}
+.r .tp .pp h3 {
+  background-color: #c9cacb;
+  color: #3d484b;
+  font-size: 18px;
+  padding: 5px 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.r .tp .pp > div {
+  display: none;
+  background-color: #f9f9fa;
+  padding: 10px 20px !important;
+  color: rgba(87, 87, 88, 0.9);
+  font-size: 15px !important;
+  width: 100% !important;
+}
+.r .tp .pp > div span {
+  display: inline-block;
+  width: 100%;
+}
+.r .tp .pp > div span + span {
+  margin-top: 10px;
+}

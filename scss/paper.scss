@@ -4,3 +4,62 @@
  */
 
 @import "_oa";
+
+.r {
+  .tb {
+    border: 1px solid rgba(191, 192, 193, 1);
+    border-left: 0;
+    border-right: 0;
+    padding: 10px;
+    
+    div {
+      @include clearfix();
+      display: inline-block;
+      margin: 0 auto;
+
+      a {
+        float: left;
+        display: inline-block;
+
+        margin: 0 20px;
+        color: rgba(80, 97, 107, 1);
+        cursor: pointer;
+
+        &:hover, &.active {
+          color: rgba(66, 173, 228, 1);
+        }
+      }
+    }
+  }
+  .tp {
+    .pp {
+      display: none;
+      text-align: left;
+      
+      h3 {
+        background-color: rgba(201, 202, 203, 1);
+        color: rgba(61, 72, 75, 1);
+        font-size: 18px;
+        padding: 5px 10px;
+        @include border-radius(3px);
+        cursor: pointer;
+      }
+      > div {
+        display: none;
+        background-color: rgba(249, 249, 250, 1);
+        padding: 10px 20px !important;
+        color: rgba(87, 87, 88, .9);
+        font-size: 15px !important;
+        width: 100% !important;
+
+        span {
+          display: inline-block;
+          width: 100%;
+          + span {
+            margin-top: 10px;
+          }
+        }
+      }
+    }
+  }
+}
