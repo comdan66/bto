@@ -90,6 +90,9 @@
   text-overflow: ellipsis;
   white-space: nowrap;
 }
+.ns .n .ti:hover {
+  text-decoration: underline;
+}
 .ns .n .w {
   color: #a3a4a5;
   text-align: left;
@@ -105,4 +108,8 @@
   font-size: 13px;
   text-decoration: none;
   color: #878889;
+}
+.ns .n .a:hover {
+  text-decoration: underline;
+  color: #0099d8;
 }

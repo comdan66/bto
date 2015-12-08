@@ -49,7 +49,7 @@
  */
 @font-face {
   font-family: "Monaco";
-  src: url('/oaf2e/font/monaco/monaco.ttf?1439651096') format('truetype'), url('/oaf2e/font/monaco/monaco.otf?1439651096') format('opentype');
+  src: url('/oaf2e/font/monaco/monaco.ttf?1449554619') format('truetype'), url('/oaf2e/font/monaco/monaco.otf?1449554619') format('opentype');
 }
 *, *:after, *:before {
   vertical-align: top;
@@ -171,6 +171,8 @@ html body.body .p .c {
   margin: 0 auto;
   text-align: left;
   color: #99a7af;
+  font-size: 13px;
+  line-height: 25px;
   *zoom: 1;
 }
 html body.body .p .c:after {

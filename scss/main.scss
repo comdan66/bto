@@ -43,7 +43,7 @@ html {
           height: 100px;
           margin: 0 auto;
           @include clearfix();
-          
+
           .f {
             position: absolute;
             right: 0px;
@@ -93,8 +93,10 @@ html {
           margin: 0 auto;
           text-align: left;
           color: rgba(153, 167, 175, 1);
+          font-size: 13px;
+          line-height: 25px;
           @include clearfix();
-          
+
 
           a {
             float: left;
@@ -121,14 +123,14 @@ html {
           color: rgba(153, 167, 175, 1);
           margin: 0 auto;
           @include clearfix();
-          
+
           .l {
             float: left;
             display: inline-block;
             width: 260px;
             text-align: left;
             border-top: 1px dotted rgba(80, 163, 202, 1);
-            
+
             .i {
               margin-top: 20px;
               border-top: 1px dotted rgba(80, 163, 202, 1);
@@ -141,7 +143,7 @@ html {
                 color: rgba(87, 87, 88, .9);
                 font-size: 13px;
                 @include border-radius(3px);
-                
+
                 div {
 
                   + div {
@@ -194,7 +196,7 @@ html {
               text-align: right;
 
               @include clearfix();
-              
+
               a {
                 display: inline-block;
                 width: 25px;
@@ -209,10 +211,10 @@ html {
 
                 &:hover, &.active {
                   background-color: rgba(78, 79, 81, 1);
-                  border: 1px solid rgba(53, 55, 58, 1); 
+                  border: 1px solid rgba(53, 55, 58, 1);
                 }
                 @include border-radius(50%);
-                
+
               }
             }
           }
