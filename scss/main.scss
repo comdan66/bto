@@ -74,9 +74,9 @@ html {
             a {
               @include a(2px, false, rgba(104, 177, 209, 1), rgba(104, 177, 209, 1));
               color: rgba(50, 50, 50, 0.8);
-              font-size: 17px;
+              font-size: 14px;
 
-              &:hover {
+              &:hover, &.active {
                 border-color: rgba(171, 204, 10, 1);
               }
             }
@@ -128,7 +128,28 @@ html {
             width: 260px;
             text-align: left;
             border-top: 1px dotted rgba(80, 163, 202, 1);
+            
+            .i {
+              margin-top: 20px;
+              border-top: 1px dotted rgba(80, 163, 202, 1);
+              padding: 20px 10px;
 
+              .d {
+                display: inline-block;
+                background-color: rgba(249, 249, 250, 1);
+                padding: 10px 20px;
+                color: rgba(87, 87, 88, .9);
+                font-size: 13px;
+                @include border-radius(3px);
+                
+                div {
+
+                  + div {
+                    margin-top: 10px;
+                  }
+                }
+              }
+            }
             h3 {
               color: rgba(27, 60, 77, 1);
               margin: 10px auto;

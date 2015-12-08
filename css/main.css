@@ -152,13 +152,13 @@ html body.body .t .c .r a {
   transition: all 0.3s;
   border-bottom: 2px solid transparent;
   color: rgba(50, 50, 50, 0.8);
-  font-size: 17px;
+  font-size: 14px;
 }
 html body.body .t .c .r a.active, html body.body .t .c .r a:hover {
   color: #68b1d1;
   border-bottom: 2px solid #68b1d1;
 }
-html body.body .t .c .r a:hover {
+html body.body .t .c .r a:hover, html body.body .t .c .r a.active {
   border-color: #abcc0a;
 }
 html body.body .p {
@@ -223,6 +223,24 @@ html body.body .ci .c .l {
   width: 260px;
   text-align: left;
   border-top: 1px dotted #50a3ca;
+}
+html body.body .ci .c .l .i {
+  margin-top: 20px;
+  border-top: 1px dotted #50a3ca;
+  padding: 20px 10px;
+}
+html body.body .ci .c .l .i .d {
+  display: inline-block;
+  background-color: #f9f9fa;
+  padding: 10px 20px;
+  color: rgba(87, 87, 88, 0.9);
+  font-size: 13px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+}
+html body.body .ci .c .l .i .d div + div {
+  margin-top: 10px;
 }
 html body.body .ci .c .l h3 {
   color: #1b3c4d;

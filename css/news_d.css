@@ -46,42 +46,77 @@
  * @author      OA Wu <comdan66@gmail.com>
  * @copyright   Copyright (c) 2015 OA Wu Design
  */
-.cs {
+.cc {
+  text-align: left;
+}
+.cc img {
+  width: 100%;
+}
+.cc .bt {
+  margin-top: 20px;
   *zoom: 1;
 }
-.cs:after {
+.cc .bt:after {
   display: table;
   content: "";
   line-height: 0;
   clear: both;
 }
-.cs a {
+.cc .bt .ll, .cc .bt .rr {
   float: left;
-  display: inline-block;
-  width: 225px;
-  height: 155px;
-  overflow: hidden;
-  text-align: right;
   position: relative;
+  display: inline-block;
 }
-.cs a:not(:nth-child(3n)) {
-  margin-right: 7px;
+.cc .bt .rr {
+  float: right;
 }
-.cs a:nth-child(n + 4) {
-  margin-top: 7px;
+.cc .bt .ll {
+  width: calc(100% - 200px);
 }
-.cs a img {
-  width: 225px;
-  height: 155px;
+.cc .bt .rr {
+  width: 200px;
 }
-.cs a div {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  background-color: rgba(39, 40, 34, 0.6);
+.cc .bt .ll, .cc .bt .rr {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.cc .bt .ll {
+  color: #b2cf27;
+  font-size: 16px;
+}
+.cc .bt .rr {
+  color: #88898a;
+  font-size: 13px;
+  text-align: right;
+}
+.cc .a {
+  margin-top: 20px;
+  border-top: 1px solid #8a8b8c;
+  padding-top: 15px;
+  font-size: 14px;
+}
+.cc .a span {
+  display: inline-block;
+  line-height: 15px;
+}
+.cc .a span + span {
+  margin-top: 17px;
+}
+.cc .b {
+  background-color: #e6f9ff;
+  color: #2aa5dd;
   display: inline-block;
   width: 100%;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
   padding: 8px;
   text-align: center;
-  color: #fff;
+  margin-top: 20px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.cc .b:hover {
+  text-decoration: underline;
 }
