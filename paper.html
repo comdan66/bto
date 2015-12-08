@@ -19,7 +19,7 @@
         $('.tb a').click (function () {
           $(this).addClass ('active').siblings ().removeClass ('active');
           $('.tp .pp').eq ($(this).index ()).show ().siblings ().hide ();
-          $('.tp .pp').eq ($(this).index ()).find ('h3').first ().click ();
+          $('.tp .pp').eq ($(this).index ()).find ('h3');
         }).first ().click ();
 
       });
@@ -36,11 +36,11 @@
         <div class='r'>
           <a href="news.html">最新消息</a>
           <span>/</span>
-          <a href="about.html"  class='active'>關於建築經理</a>
+          <a href="about.html">關於建築經理</a>
           <span>/</span>
           <a href="ser.html">服務簡介與理念</a>
           <span>/</span>
-          <a href="paper.html">建築的常識</a>
+          <a href="paper.html" class='active'>建築的常識</a>
           <span>/</span>
           <a href="paper2.html">建築產銷履歷</a>
           <span>/</span>
@@ -54,16 +54,16 @@
       <div class='c'>
         <a href='index.html'>首頁</a>
         <a href='paper.html'>建築的常識</a>
-        <a href=''>首頁</a>
+        <a href='paper.html'>觀念建立</a>
       </div>
     </div>
     <div class='ci'>
       <div class='c'>
         <div class='l'>
           <h3>建築的常識</h3>
-          <a href='' class='active'>觀念建立</a>
-          <a href=''>營建品管</a>
-          <a href=''>建築與人性</a>
+          <a href='paper.html' class='active'>觀念建立</a>
+          <a href='pa01.html'>營建品管</a>
+          <a href='pa02.html'>建築與人性</a>
         </div>
         <div class='r'>
             <div class='tb'>
