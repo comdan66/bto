@@ -252,12 +252,12 @@ html body.body .ci .c .l a {
   display: inline-block;
   width: 100%;
   text-decoration: none;
-  color: #467e8c;
+  color: #5e798e;
 }
 html body.body .ci .c .l a + a {
   margin-top: 10px;
 }
-html body.body .ci .c .l a:hover {
+html body.body .ci .c .l a:hover, html body.body .ci .c .l a.active {
   color: #7abce5;
 }
 html body.body .ci .c .l a:before {
@@ -266,7 +266,7 @@ html body.body .ci .c .l a:before {
   position: absolute;
   left: 30px;
   top: 0;
-  line-height: 18px;
+  line-height: 20px;
   font-weight: bolder;
   font-size: 20px;
   display: inline-block;

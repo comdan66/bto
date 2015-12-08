@@ -40,13 +40,18 @@
       text-align: left;
       width: 100%;
       text-decoration: none;
+      font-size: 14px;
+      @include overflow-docx3();
     }
     .w {
       color: rgba(163, 164, 165, 1);
       text-align: left;
       margin-top: 5px;
       margin-bottom: 10px;
-      height: 63px;
+      height: 69px;
+      line-height: 15px;
+      font-size: 13px;
+      overflow: hidden;
       border-bottom: 1px solid rgba(39, 40, 34, .5);
     }
     .a {

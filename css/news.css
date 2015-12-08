@@ -85,13 +85,20 @@
   text-align: left;
   width: 100%;
   text-decoration: none;
+  font-size: 14px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .ns .n .w {
   color: #a3a4a5;
   text-align: left;
   margin-top: 5px;
   margin-bottom: 10px;
-  height: 63px;
+  height: 69px;
+  line-height: 15px;
+  font-size: 13px;
+  overflow: hidden;
   border-bottom: 1px solid rgba(39, 40, 34, 0.5);
 }
 .ns .n .a {
