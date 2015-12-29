@@ -74,7 +74,7 @@
   color: #42ade4;
 }
 .r .tp .pp {
-  display: none;
+  display: block;
   text-align: left;
 }
 .r .tp .pp h3 {
@@ -88,7 +88,7 @@
   cursor: pointer;
 }
 .r .tp .pp > div {
-  display: none;
+  display: inline-block;
   background-color: #f9f9fa;
   padding: 10px 20px !important;
   color: rgba(87, 87, 88, 0.9);

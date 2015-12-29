@@ -49,7 +49,7 @@
  */
 @font-face {
   font-family: "Monaco";
-  src: url('/oaf2e/font/monaco/monaco.ttf?1439651096') format('truetype'), url('/oaf2e/font/monaco/monaco.otf?1439651096') format('opentype');
+  src: url('/oaf2e/font/monaco/monaco.ttf?1449554619') format('truetype'), url('/oaf2e/font/monaco/monaco.otf?1449554619') format('opentype');
 }
 *, *:after, *:before {
   vertical-align: top;
@@ -312,4 +312,45 @@ html body.body .fl {
   border-top: 4px solid #0099d8;
   margin-top: 40px;
   padding: 10px;
+}
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+.table thead th {
+  background-color: gray;
+  border: 1px solid #272822;
+  padding: 5px;
+}
+.table tbody td {
+  color: #272822;
+  padding: 5px;
+  border: 1px solid #272822;
+}
+.table tfoot td {
+  color: #272822;
+  padding: 5px;
+  border: 1px solid #272822;
+}
+.table tfoot td a {
+  display: inline-block;
+  color: #68b1d1;
+  font-weight: normal;
+  text-decoration: none;
+  padding: 0 2px;
+  padding-bottom: 1px;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-bottom: 1px solid transparent;
+}
+.table tfoot td a.active, .table tfoot td a:hover {
+  color: #68b1d1;
+  border-bottom: 1px solid #68b1d1;
 }

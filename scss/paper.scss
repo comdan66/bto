@@ -11,7 +11,7 @@
     border-left: 0;
     border-right: 0;
     padding: 10px;
-    
+
     div {
       @include clearfix();
       display: inline-block;
@@ -33,9 +33,10 @@
   }
   .tp {
     .pp {
-      display: none;
+      // display: none;
+      display: block;
       text-align: left;
-      
+
       h3 {
         background-color: rgba(201, 202, 203, 1);
         color: rgba(61, 72, 75, 1);
@@ -45,7 +46,8 @@
         cursor: pointer;
       }
       > div {
-        display: none;
+        // display: none;
+        display: inline-block;
         background-color: rgba(249, 249, 250, 1);
         padding: 10px 20px !important;
         color: rgba(87, 87, 88, .9);

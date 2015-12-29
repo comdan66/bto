@@ -229,3 +229,37 @@ html {
     }
   }
 }
+
+.table {
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: collapse;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  font-size: 14px;
+
+  thead {
+    th {
+      background-color: rgba(128, 128, 128, 1);
+      border: 1px solid rgba(39, 40, 34, 1);
+      padding: 5px;
+    }
+  }
+  tbody {
+    td {
+      color: rgba(39, 40, 34, 1);
+      padding: 5px;
+      border: 1px solid rgba(39, 40, 34, 1);
+    }
+  }
+  tfoot {
+    td {
+      color: rgba(39, 40, 34, 1);
+      padding: 5px;
+      border: 1px solid rgba(39, 40, 34, 1);
+      a {
+        @include a(1px, false, rgba(104, 177, 209, 1), rgba(104, 177, 209, 1));
+      }
+    }
+  }
+}
