@@ -23,13 +23,17 @@
           $c.append ($f);
           $i.first ().remove ();
         });
-        $('.b .r').click (function () {
+        var $r = $('.b .r').click (function () {
           var $c = $(this).prev ();
           var $i = $c.find ('img');
           var $l = $i.last ().clone ();
           $c.prepend ($l);
           $i.last ().remove ();
         });
+
+        setInterval (function () {
+          $r.click ();
+        }, 3000);
       });
     </script>
 
